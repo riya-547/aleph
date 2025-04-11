@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    
+   
+}#nav{
+    height: 50px;
+    width: 100%;
+    background-color: #f6f6f4;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    
+}
+#nav1{
+    display: flex;
+  gap: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+#nav3{
+    display: flex;
+    gap: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-image: url("//alephbeauty.com/cdn/shop/files/aleph-summer-bundles-475_2560x.jpg?v=1699219894");
+    background-position: center;
+    background-size: cover;
+}
+#pg1{
+    height: 100px;
+    width: 100%;
+   position: absolute;
+    font-size: 25px;
+    font-weight: 7;
+    color: #f6f6f4;
+    bottom: 150px;
+   padding-left: 430px;
+  
+}
+#pg1a{
+    height: 20px; 
+    width: 100%;
+   position: absolute;
+    font-size: 25px;
+    color: #f6f6f4;
+    bottom: 140px;
+    padding: 0 50PX;
+ 
+}
+button{
+    position: absolute;
+    bottom: 60px;
+    padding: 20px;
+    margin-left: 500px;
+    letter-spacing: 3px;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+   display: flex;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #eb0d0d;
+}
+#left{
+    height: 100vh;
+    width: 50%;
+    background-color: #fff;
+    background-image:url(https://alephbeauty.com/cdn/shop/files/aleph-concealer-foundation-2-078.jpg?v=1660688939&width=2000);
+    background-position: center;
+    background-size: cover;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(238, 228, 211);
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 20px;
+    color: black;
+}
+#head{
+    padding-left: 30px;
+}
+#tail{
+    padding-left: 300px;
+}
+#pg2b{
+    position: absolute;
+    bottom: 10px;
+    height: 20px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background: #000;
+}
+
+
